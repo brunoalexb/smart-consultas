@@ -22,7 +22,7 @@ app.use(express.json());
 
 app.use('/api', clientRoutes);
 
- // Para qualquer rota que não seja uma API, sirva o index.html do React
+ 
  app.get('*', (req, res) => {
     res.sendFile(path.join(__dirname, '..', 'frontend', 'smart-consultasfront', 'src', 'main.jsx'));
   });
