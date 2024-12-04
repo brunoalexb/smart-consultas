@@ -16,7 +16,7 @@ Este projeto é uma aplicação backend e frontend para gerenciamento de cliente
 - **Express**  
 - **Sequelize**  
 - **MySQL**  
-- **Frontend com React** (base no diretório `frontend`).
+- **Frontend com React**
 
 ## Estrutura do Projeto 📂
 
