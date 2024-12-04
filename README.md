@@ -60,15 +60,15 @@ npm start
 Endpoints da API 🛣️
 
 ### Endpoints para Usuários
-**POST** `/auth/register` - Registrar um novo usuário.
-**POST** `/auth/login` - Autenticar um usuário.
+- **POST** `/auth/register` - Registrar um novo usuário.
+- **POST** `/auth/login` - Autenticar um usuário.
 
 ### Endpoints para Clientes
-**POST** `/clients` - Adicionar um novo cliente.
-**GET** `/clients` - Listar todos os clientes.
-**GET** `/clients/{id}` - Buscar um cliente pelo ID.
-**PUT** `/clients/{id}` - Atualizar informações de um cliente.
-**DELETE** `/clients/{id}` - Excluir um cliente.
+- **POST** `/clients` - Adicionar um novo cliente.
+- **GET** `/clients` - Listar todos os clientes.
+- **GET** `/clients/{id}` - Buscar um cliente pelo ID.
+- **PUT** `/clients/{id}` - Atualizar informações de um cliente.
+- **DELETE** `/clients/{id}` - Excluir um cliente.
 
 
 ### Autor 🧑‍💻
