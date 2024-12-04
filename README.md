@@ -39,12 +39,14 @@ Uma ferramenta de requisições como Insomnia ou Postman.
 
 ### Configuração do Banco de Dados
 Edite o arquivo .env com as informações do banco de dados:
+
+```.env
 DB_HOST=localhost
 DB_USER=seu_usuario
 DB_PASSWORD=sua_senha
 DB_NAME=smart_consultas
 DB_PORT=PORT
-
+```
 ### Rodando o Projeto
 1. Clone esse repositório:
 git clone https://github.com/seu-usuario/smart-consultas.git
