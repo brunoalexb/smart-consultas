@@ -31,13 +31,13 @@ frontend/
 ├── smart-consultasfront  # Frontend da aplicação
 ```
 
-###Configuração do Projeto ⚙️
+### Configuração do Projeto ⚙️
 **Pré-requisitos**
 Node.js instalado (v16 ou superior).
 MySQL Server configurado.
 Uma ferramenta de requisições como Insomnia ou Postman.
 
-###Configuração do Banco de Dados
+### Configuração do Banco de Dados
 Edite o arquivo .env com as informações do banco de dados:
 DB_HOST=localhost
 DB_USER=seu_usuario
@@ -45,7 +45,7 @@ DB_PASSWORD=sua_senha
 DB_NAME=smart_consultas
 DB_PORT=PORT
 
-###Rodando o Projeto
+### Rodando o Projeto
 1. Clone esse repositório:
 git clone https://github.com/seu-usuario/smart-consultas.git
 
@@ -57,13 +57,13 @@ npm install
 npm start
 
 
-##Endpoints da API 🛣️
+Endpoints da API 🛣️
 
-###Endpoints para Usuários
+### Endpoints para Usuários
 **POST** `/auth/register` - Registrar um novo usuário.
 **POST** `/auth/login` - Autenticar um usuário.
 
-###Endpoints para Clientes
+### Endpoints para Clientes
 **POST** `/clients` - Adicionar um novo cliente.
 **GET** `/clients` - Listar todos os clientes.
 **GET** `/clients/{id}` - Buscar um cliente pelo ID.
@@ -71,5 +71,5 @@ npm start
 **DELETE** `/clients/{id}` - Excluir um cliente.
 
 
-###Autor 🧑‍💻
-Projeto desenvolvido por [Seu Nome]. Entre em contato pelo [seu email/linkedin].
+### Autor 🧑‍💻
+Projeto desenvolvido por Bruno Alexandre. Entre em contato pelo e-mail: brunoale77@gmail.com.
